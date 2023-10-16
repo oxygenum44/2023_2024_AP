@@ -1,0 +1,20 @@
+BoardGame;Rating;Weight;MinPlayers;MaxPlayers;Duration
+Everdell;8.25;3.82;2;6;120
+Everdell;8.25;3.82;2;6;120
+Everdell;;;;;
+Everdell;;;2;;
+Everdell;3;3.45;2;6;100
+Terraforming Mars;9.12;2.89;1;5;120
+Last Will;7.42;2.22;2;5;60
+CodeNames;8.99;1.78;2;12;20
+CodeNames2;7.21;2.23;2;12;1
+Twilight Strugle;8.22;4.57;2;2;180
+Twilight Strugle;8.22;4.57;2;2;1200
+Twilight Strugle;132;4.57;2;2;1200
+Whatsoever;2.22;0.99;0.5;10;50
+Twilight Strugle;8.22;4.57;2;;180
+Twilight Strugle;8.22;;2;2;1200
+Twilight Strugle;132;4.57;2;;1200
+Whatsoever;;0.99;0.5;10;50
+UnderWater Cities;8.12;3.89;2;6;90
+Neuroshimna Hex;7.77;3.45;1;4;45

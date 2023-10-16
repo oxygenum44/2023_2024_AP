@@ -1,0 +1,5 @@
+import pandas as pd
+
+games = pd.read_csv('ex3.csv', sep=";")
+
+print(games)
