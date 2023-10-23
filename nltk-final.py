@@ -4,8 +4,8 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize, sent_tokenize
 from spacy.lang.en.stop_words import STOP_WORDS
-nltk.download('stopwords')
-nltk.download('punkt')
+#nltk.download('stopwords')
+#nltk.download('punkt')
 def nltk_summarizer(docx):
     stopWords = set(stopwords.words("english"))
     words = word_tokenize(docx)

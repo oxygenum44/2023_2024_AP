@@ -1,5 +1,7 @@
 import nltk
 from nltk.tokenize import sent_tokenize, word_tokenize
+#nltk.download('wordnet')
+#nltk.download('gutenberg')
 
 text2 = "The town was in flames. The narrow streets leading to the moat and the first terrace belched smoke and " \
        "embers, flames devouring the densely clustered thatched houses and licking at the castle walls. From the " \
@@ -764,7 +766,7 @@ lemmatized_text = [our_lemmatizer.lemmatize(word) for word in filtered_again]
 
 #dispersion plot
 from nltk.draw.dispersion import dispersion_plot
-#dispersion_plot(filtered_again, ['dandilion', 'poet', 'ciri', 'geralt', 'witcher', 'cintra', 'yennefer'])
+dispersion_plot(filtered_again, ['dandilion', 'poet', 'ciri', 'geralt', 'witcher', 'cintra', 'yennefer'])
 
 
 from nltk import FreqDist
@@ -781,3 +783,8 @@ hamlet = nltk.corpus.gutenberg.words('carroll-alice.txt')
 hamlet_filter = [word.casefold() for word in hamlet if word.casefold() not in stopwords and word.isalpha()]
 frequency_distribution = FreqDist(hamlet_filter)
 print(frequency_distribution.most_common(40))
+
+#nltk.download('treebank')
+from nltk.corpus import treebank
+t = treebank.parsed_sents('wsj_0003.mrg')[0]
+t.draw()

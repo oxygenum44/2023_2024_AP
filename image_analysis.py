@@ -12,10 +12,11 @@ print(img.shape)
 
 for i in range(1080):
     for j in range(1920):
-        if img[i][j][0] < 100 and img[i][j][1] > 100 and img[i][j][2] < 100:
+        if img[i][j][0] < 100 < img[i][j][1] and img[i][j][2] < 100:
             img[i][j][0] = img1[i][j][0]
             img[i][j][1] = img1[i][j][1]
             img[i][j][2] = img1[i][j][2]
+
 
 cv2.imshow('b', img1)
 cv2.imshow('TITLE', img)
